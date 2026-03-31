@@ -24,7 +24,6 @@ const App: React.FC = () => {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
-  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
   const [favoritePapers, setFavoritePapers] = useState<Paper[]>([]);
 
   useEffect(() => {
@@ -33,9 +32,6 @@ const App: React.FC = () => {
   }, []);
 
   const updateFavoriteIds = () => {
-    const favorites = JSON.parse(localStorage.getItem('dl_digest_favorites') || '[]');
-    setFavoriteIds(favorites);
-    
     const favoritesFull = JSON.parse(localStorage.getItem('dl_digest_favorites_full') || '[]');
     setFavoritePapers(favoritesFull);
   };
