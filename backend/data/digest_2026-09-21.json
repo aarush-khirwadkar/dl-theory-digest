@@ -1,0 +1,814 @@
+[
+    {
+        "id": "http://arxiv.org/abs/2609.22065v1",
+        "title": "Hermite-Fisher bounds and stability for min-entropy power inequalities",
+        "authors": [
+            "Silouanos Brazitikos",
+            "Martin Rapaport",
+            "Tomasz Tkocz"
+        ],
+        "summary": "We derive explicit lower bounds for relative Fisher information by combining a variational principle with suitably orthogonalized Hermite-polynomial test functions. The resulting cumulant bounds are asymptotically sharp and yield lower bounds for Gaussian entropy deficits. We also establish quantitative versions of sharp min-entropy power inequalities in all dimensions. En route, we develop a stability result for Brzezinski's sharp bound for block sections of products of Euclidean balls, which may be of independent interest.",
+        "published": "2026-09-18T17:54:53+00:00",
+        "url": "https://arxiv.org/pdf/2609.22065v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.22064v1",
+        "title": "BrainWideBench: Benchmarking large-scale pretraining and across-animal transfer in multi-region neural recordings",
+        "authors": [
+            "Alexandre Andre",
+            "Shivashriganesh P. Mahato",
+            "Vinam Arora",
+            "Keshav Balaji",
+            "Divyansha Lachi",
+            "Nanda H. Krishna",
+            "Jingyun Xiao",
+            "Yizi Zhang",
+            "Ximeng Mao",
+            "Wenrui Ma",
+            "Han Yu",
+            "International Brain Laboratory",
+            "Daniel Birman",
+            "Niccol\u00f2 Bonacchi",
+            "Gaelle A. Chapuis",
+            "Joana A. Catarino",
+            "Felicia Davatolhagh",
+            "Mayo Faulkner",
+            "Laura Freitas-Silva",
+            "Fei Hu",
+            "Julia M. Huntenburg",
+            "Anup Khanal",
+            "In\u00eas Laranjeira",
+            "Petrina Lau",
+            "Guido T. Meijer",
+            "Nathaniel J. Miska",
+            "Jean-Paul Noel",
+            "Alejandro Pan-Vazquez",
+            "Georg Raiser",
+            "Cyrille Rossant",
+            "Karolina Z. Socha",
+            "Anne E. Urai",
+            "Miles J. Wells",
+            "Steven J. West",
+            "Olivier Winter",
+            "Blake Richards",
+            "Guillaume Lajoie",
+            "Cole Hurwitz",
+            "Mehdi Azabou",
+            "Matthew R. Whiteway",
+            "Liam Paninski",
+            "Eva L. Dyer"
+        ],
+        "summary": "Advances in large-scale neural recording have made it possible to collect data across many animals and distributed brain regions, raising the question of whether this scale can be exploited to learn general-purpose neural representations transferable across diverse downstream tasks. Yet, progress toward this goal has been limited by fragmented evaluation protocols and a narrow focus on individual task domains. Here, we present BrainWideBench, a benchmark for evaluating across-animal transfer on multi-region neural recordings, built on the International Brain Laboratory Brainwide Map dataset of neural and behavioral recordings spanning 276 brain regions from 139 mice performing a sensory-guided decision-making task. The benchmark is organized around three complementary task suites that evaluate whether learned representations support downstream decoding of behavior, can predict masked or future neural activity, and can recover biologically meaningful anatomical organization. With this benchmark, we systematically evaluate pretraining methods across transfer settings, including finetuning on downstream objectives and zero-shot generalization to unseen animals. Our results confirm pretraining improves performance over matched single-session baselines, but we show current methods exhibit heterogeneity in transfer capabilities: gains depend strongly on the alignment between pretraining objectives and downstream tasks. No single approach performs uniformly well across all three suites, and most methods are designed to only address a subset of them. Together, these findings suggest that learning representations that jointly generalize across behavior, dynamics, and anatomy remains an open challenge. By providing a unified and reproducible evaluation suite, BrainWideBench establishes a framework for measuring progress toward general-purpose models of the mouse brain.",
+        "published": "2026-09-18T17:54:32+00:00",
+        "url": "https://arxiv.org/pdf/2609.22064v1",
+        "tags": [
+            "generalization",
+            "generative models",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.22058v1",
+        "title": "Lyapunov stability of polynomial vector fields is undecidable",
+        "authors": [
+            "Milan Korda"
+        ],
+        "summary": "We show that there are integers $N$ and odd $D$ such that no algorithm can decide, from the rational coefficients of a homogeneous polynomial vector field F of degree $D$ in dimension $N$, whether the origin is Lyapunov stable for $\\dot Y=F(Y)$. This proves, for some large and unoptimized dimension and degree, a conjecture of V. I. Arnold.",
+        "published": "2026-09-18T17:50:07+00:00",
+        "url": "https://arxiv.org/pdf/2609.22058v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.22053v1",
+        "title": "Particle Competition and Cooperation for Robust Graph Convolutional Network Learning Under Label Noise",
+        "authors": [
+            "Fabricio Breve"
+        ],
+        "summary": "Graph Convolutional Networks (GCNs) are highly sensitive to label noise, since corrupted supervision can propagate through the graph and degrade learned node representations. This work proposes PCC+GCN, a hybrid framework that uses Particle Competition and Cooperation (PCC) as a graph-based label-refinement stage before GCN training. PCC identifies suspicious labeled nodes through particle domination dynamics and determines whether their labels should be preserved, removed, or reassigned before GCN training. The framework also allows the graph used by PCC to be augmented with feature-based $k$-nearest-neighbor edges, while the GCN itself is trained on the original graph structure and node features. The proposed method was evaluated on ten graph datasets from the NoisyGL benchmark under conventional Uniform, Pair, and Random label noise, as well as under instance-dependent label noise. A detailed hyperparameter analysis was also conducted on Cora, CiteSeer, and PubMed. Under conventional noise, PCC+GCN achieved the highest overall average accuracy and the best average rank among the evaluated methods, with an average gain of $1.67$ percentage points over the baseline GCN across the clean setting and all noisy scenarios. Under instance-dependent noise, PCC+GCN remained competitive with the best-performing robust methods while requiring substantially lower execution time, being the fastest robust method on eight of the ten datasets. The results indicate that PCC-based label refinement provides an effective and computationally efficient preprocessing strategy for improving GCN robustness under noisy supervision.",
+        "published": "2026-09-18T17:46:08+00:00",
+        "url": "https://arxiv.org/pdf/2609.22053v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.22041v1",
+        "title": "$\u03bb$-Controlled GRPO: Turning Flow-Matching Ratio Instability into a Budgeted Resource",
+        "authors": [
+            "Yufeng Wang",
+            "Parivesh Priye",
+            "Meeshawn Marathe",
+            "Ramit Pahwa"
+        ],
+        "summary": "Reinforcement learning is increasingly used to align image generators with reward signals, and Flow-GRPO recently extended this paradigm to flow-matching models by treating the denoising sampler as a stochastic policy that can be optimized from reward feedback. Training in this setting is unstable in a way specific to multi-step denoising: the policy update changes systematically across denoising steps, with importance ratios drifting below one, becoming increasingly dispersed, clipping at different rates, and leaving fewer usable samples late in training. Prior work treats these effects as separate failure modes and addresses each with a hand-tuned stabilizer. We show instead that they arise from a single per-step quantity, which we call path variance. This quantity is determined exactly by the sampler's Gaussian transition kernel and can be estimated cheaply during training. This reframes instability as a resource that can be measured and budgeted rather than a collection of symptoms to repair. Our method, $\u03bb$-Controlled GRPO, calibrates importance-ratio behavior from this predicted law rather than from noisy empirical statistics, and allocates gradient effort across denoising steps according to their predicted cost. The two scales governing the update are fixed by standard policy choices rather than introduced as free tuning parameters. On a text-to-image model under two reward settings, rendering difficult target text scored by optical character recognition and matching human preferences scored by a preference model, $\u03bb$-Controlled GRPO improves both text accuracy and preference reward over the strongest empirical stabilizer. It also keeps late-step path variance within its intended budget, precisely where the baseline systematically overshoots. The result is a Flow-GRPO update calibrated by its own transition law rather than stabilized after instability appears.",
+        "published": "2026-09-18T17:33:38+00:00",
+        "url": "https://arxiv.org/pdf/2609.22041v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.22028v1",
+        "title": "Spherical Harmonic Sliced Wasserstein Displacement Interpolation for Acoustic Source and Reflection Density Modeling",
+        "authors": [
+            "Yuancheng Luo"
+        ],
+        "summary": "Spatial room impulse responses (SRIRs) capture directional distributions of acoustic sound-sources and their reflections. However, collecting SRIRs of moving sound-sources remains a challenge, requiring complex interpolations across measurements that account for multi-path spatial-temporal dynamics. This paper investigates the Wasserstein metric and displacement for evaluating interpolated SRIR echo densities in the spherical harmonic domain. We present novel sum-of-magnitude square expansions for efficiently fitting probability density functions, maximizing likelihood, inverse sampling, and computing spherical sliced Wasserstein interpolations. Experiments compare the Wasserstein displacements and metric to linear and geometric interpolations of SRIR image-source densities on a line-path, and demonstrate model-order reduction.",
+        "published": "2026-09-18T17:22:17+00:00",
+        "url": "https://arxiv.org/pdf/2609.22028v1",
+        "tags": [
+            "interpolation",
+            "wildcard"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21989v1",
+        "title": "Time series generation with spectrally aligned latent flow matching",
+        "authors": [
+            "Camilo Carvajal Reyes",
+            "Felipe Tobar"
+        ],
+        "summary": "Latent flow models have proven to be a reliable and cost-effective method for time series generation. However, the latent compression induces unwanted artefacts, such as a spectral mismatch with respect to the underlying dataset, thus hindering their use as training surrogates. In this article, we propose a spectrally-aligned latent-flow time series generator, where the latent space for flow matching is trained to preserve dynamical properties that are relevant for the suitability of synthetic samples. We find that incorporating fine-tuning losses based on canonical signal representations such as the Fourier, wavelet and signature transforms helps overcome these issues. The interpretability of these transformations allows us to ensure that the synthetic signals are aligned with the true ones in terms of relevant features, such as smoothness or targeted spectral content, as opposed to relying on pointwise reconstruction losses only. We compare the proposed aligned models against a base latent-flow model and the state of the art over real-world long-range univariate and multivariate benchmark datasets. Our quantitative results validate the superiority of the proposed method in terms of its performance on metrics reflecting signal realness and computational efficiency, while being aligned to the training set with respect to its local structure.",
+        "published": "2026-09-18T16:49:46+00:00",
+        "url": "https://arxiv.org/pdf/2609.21989v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21985v1",
+        "title": "Consistency of Optimal Matching-based Clustering for Mixtures of Markov Chains",
+        "authors": [
+            "Ottavio Khalifa"
+        ],
+        "summary": "We study clustering of categorical sequences using the Optimal Matching (OM) distance under finite mixtures of finite-state Markov chains. We show that the normalized OM distance between two independent chains converges almost surely to a deterministic population quantity, concentrates exponentially around its finite-horizon mean, and admits an $O(\\sqrt{\\log n/n})$ convergence rate when the two chains have the same transition kernel. These population quantities yield a natural separation condition: the largest within-component limit must be smaller than the smallest between-component limit. Under this condition, hierarchical clustering with any bracketed linkage and Partitioning Around Medoids consistently recover the latent mixture partition. We also propose a consistent estimator of the number of components based on empirical OM distance profiles. The results extend to finite-state hidden Markov models and multichannel categorical observations. Overall, they provide a statistical justification for standard OM-based clustering methods for categorical time series.",
+        "published": "2026-09-18T16:46:55+00:00",
+        "url": "https://arxiv.org/pdf/2609.21985v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21976v1",
+        "title": "Multiplicative Optimism for Constant Regret in Games",
+        "authors": [
+            "Ashkan Soleymani",
+            "Georgios Piliouras"
+        ],
+        "summary": "We introduce Multiplicatively Optimistic Regret Matching (MORM), an uncoupled learning rule for finite general-sum games. Under simultaneous full-information self-play, every player achieves external regret $O(\\sqrt n\\log d)$ uniformly over all horizons, using only one-step optimism. The analysis combines a potential-based regret-matching argument with multiplicative stability and Hellinger control of strategy movement. A learning-rate safeguard additionally gives $O(\\sqrt{T\\log d})$ regret in the face of adversarial utilities.",
+        "published": "2026-09-18T16:38:29+00:00",
+        "url": "https://arxiv.org/pdf/2609.21976v1",
+        "tags": [
+            "generalization",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21960v1",
+        "title": "Schedule optimization for tau-leaping in masked discrete diffusion",
+        "authors": [
+            "Cecilia Secchi",
+            "Giacomo Zanella"
+        ],
+        "summary": "Masked discrete diffusion models are commonly accelerated using the so-called tau-leaping discretization method, which reveals several coordinates in parallel at each sampling step. The sampler replaces the joint conditional law of each revealed block by a product distribution, incurring a factorization error $\\varepsilon_\\text{fact}$ present even with perfectly learned predictors. We analyze the standard sampler on $N$ coordinates with $K$ sampling steps, whose random block sizes depend on a denoising schedule. Our analysis uses an exact integral representation of $\\varepsilon_\\text{fact}$ in terms of a distribution-dependent dependence density $\u03c1$, which records how conditional dependence evolves as the revealed fraction of coordinates grows. We develop estimators for this profile and quantify how estimation errors affect schedule selection. We derive recursive stationarity equations for the finite-$K$ optimization problem and, under a monotonicity condition, characterize its unique optimizer. In the joint limit $N,K\\to\\infty$, we obtain an explicit characterization of the optimal limiting smooth schedule and quantify the cost of random block sizes relative to a deterministic planner. When $\u03c1_N$ converges uniformly to a strictly positive continuous profile, optimizing over fixed smooth schedules can improve the leading constant but not the $N/K$ scaling of $\\varepsilon_\\text{fact}$. By contrast, if $\u03c1_N$ degenerates, suitable schedules can improve the asymptotic order relative to the uniform schedule. Examples based on stationary processes and exchangeable mixtures illustrate these two regimes.",
+        "published": "2026-09-18T16:18:26+00:00",
+        "url": "https://arxiv.org/pdf/2609.21960v1",
+        "tags": [
+            "optimization",
+            "generative models"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21945v1",
+        "title": "Learning to Move Cities: Deep Meta-Models and Reinforcement Policies for Calibration and Control in Urban Networks",
+        "authors": [
+            "Adewumi Augustine Adepitan",
+            "Christopher J. Haruna",
+            "Oluwasegun Adegoke",
+            "Ayooluwatomiwa Ajiboye",
+            "Oluwatobi Oluwasakin"
+        ],
+        "summary": "Urban transportation networks present complex optimization challenges spanning calibration of high-fidelity simulators and real-time operational control. This paper presents a shared latent-space framework that connects simulator calibration and reinforcement learning control through a common learned representation of urban traffic dynamics. First, we develop a combinatorial MLP-autoencoder architecture that learns low-dimensional manifolds linking simulator inputs (origin-destination demand, network parameters) to outputs (travel times, congestion patterns), enabling efficient Bayesian optimization for calibration. This approach demonstrates superior sample efficiency compared to traditional dimension reduction methods, achieving better fit to observational data within fixed computational budgets. Second, we implement a deep Q-learning agent with experience replay and target networks to optimize dynamic traffic assignment through scheduling and routing adjustments. In empirical evaluations on benchmark networks, our approach reduces system-wide travel times by up to 51% compared to baseline operations. The learned latent representation is not only used to reduce the dimensionality of Bayesian calibration, but is also incorporated into the reinforcement learning state representation, allowing the control policy to operate on compressed and calibrated traffic dynamics. This shared latent-space formulation provides a unified pathway from simulator calibration to adaptive operational control within intelligent transportation systems. Our results highlight the transformative potential of deep learning methods in urban mobility planning and management, particularly for large-scale networks where traditional optimization approaches face computational bottlenecks.",
+        "published": "2026-09-18T16:03:11+00:00",
+        "url": "https://arxiv.org/pdf/2609.21945v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21944v1",
+        "title": "Guiding Agents of Quantum Games to Equilibrium using Matrix Exponential Fixed-Point Iteration",
+        "authors": [
+            "Alireza Habibi",
+            "Luis F. Abanto Leon",
+            "Setareh Maghsudi"
+        ],
+        "summary": "In recent years, quantum game theory has gained significant attention as a framework for studying decision-making in multi-agent systems using quantum principles. However, computing equilibrium strategies is challenging because the dimension of the joint Hilbert space grows as the product of the players' local dimensions. In this paper, we consider an extended Gutoski-Watrous (EGW) game in which each player's quantum strategy is represented by a local density matrix. We derive tensor-contraction expressions for the payoff functions and their gradients, thereby avoiding the explicit construction of the full joint density matrix and its computationally expensive multiplication by the payoff operators. Building on the resulting effective Hamiltonians, we propose the Matrix Exponential Fixed-Point Iteration with Annealing (MEFPIA) algorithm to search for equilibrium points in EGW games. We compare MEFPIA with the Matrix Multiplicative Weights Update (MMWU) algorithm in terms of convergence. For the tested instances and parameter settings, both algorithms approach the same strategy profiles and payoffs, while MEFPIA achieves lower relative error in fewer iterations. These results indicate that MEFPIA is a promising numerical method for equilibrium search in multi-agent quantum games. Our findings provide important insights into the quantum game theory's potential for addressing complex decision-making processes, as well as opening up new paths for future research and exploration in multi-agent quantum systems.",
+        "published": "2026-09-18T16:00:29+00:00",
+        "url": "https://arxiv.org/pdf/2609.21944v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21910v1",
+        "title": "Riemannian Simultaneous Inference for Tangent Vector Field Regression",
+        "authors": [
+            "Xiaotian Chang",
+            "Yangdi Jiang",
+            "Qirui Hu"
+        ],
+        "summary": "We consider nonparametric tangent vector field regression on a Riemannian manifold without boundary. Because responses at different points lie in different tangent spaces, the proposed kernel estimator first parallel transports nearby responses to the target tangent space and then forms a volume-corrected local average. We first derive its uniform second-order bias, finite-bandwidth covariance, and stochastic rate. For simultaneous inference, the tangent norm is written as a supremum over the unit tangent bundle. Exact covariance whitening gives a unit-variance Gaussian field whose correlation length is of order $h$ along the base manifold and of order one along the fibre. Its local covariance geometry leads to a Gumbel limit with an explicit intrinsic constant. Combining this limit with Gaussian approximation and cross-fitted covariance estimation yields a feasible simultaneous confidence tube for the regression field. We further discuss improved finite-sample inference with bandwidth selection and high-order bias corrections. Simulations on various manifolds support the proposed inference procedure. A randomized reconstruction of global wind data illustrates how the tube's cross-sections describe spatially varying uncertainty.",
+        "published": "2026-09-18T15:34:52+00:00",
+        "url": "https://arxiv.org/pdf/2609.21910v1",
+        "tags": [
+            "approximation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21909v1",
+        "title": "Beyond Kinematics: Benchmarking Simulation Fidelity for Muscle-Driven Imitation Learning",
+        "authors": [
+            "Ayah G. Ahmad",
+            "Claire E. Borden",
+            "Maegan Tucker"
+        ],
+        "summary": "In this work, we conduct a systematic comparison of two state-of-the-art motion-imitation reinforcement learning (MIRL) pipelines, one built on SCONE/HyFyDy and one built on MuJoCo/MyoSim. HyFyDy emphasizes physiological realism through detailed musculotendon modeling, while MuJoCo prioritizes computational efficiency and scalable policy learning. While recent work has demonstrated that both pipelines reproduce human kinematics with high fidelity, it remains unclear if they accurately capture the underlying neuromuscular behavior that produced the movement. This limitation is particularly important for robotic assistive-device design and control, where outcome measures such as muscle activation patterns and metabolic cost are often used as optimization targets. To conduct a systematic comparison, our work compares both pipelines using a common set of human motion-capture and electromyography (EMG) measurements. The results find that while both pipelines produce similar kinematics with relative accuracy, the muscle activations from HyFyDy are more aligned with the experimental EMG, as supported by the average pooled (RMSE, r) values for muscle activations from HyFyDy and MuJoCo: (0.164, 0.4) and (0.344, 0.11), respectively. While we conclude that the more advanced physiological realism of HyFyDy currently makes it more suitable for musculoskeletal modeling, both require further development to bring physiological realism to GPU-parallelizable simulation environments and advance robotic assistive device design.",
+        "published": "2026-09-18T15:34:41+00:00",
+        "url": "https://arxiv.org/pdf/2609.21909v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21905v1",
+        "title": "An $\u03a9(\u03ba_y^8\u03b5^{-6})$ Lower Bound for Stochastic NC-SC Bilevel Optimization with First-order Oracles",
+        "authors": [
+            "Zhihao Gu",
+            "Qilong Wu",
+            "Junchi Yang"
+        ],
+        "summary": "We study the oracle complexity of finding $\u03b5$-stationary points of smooth bilevel optimization problems with a nonconvex upper-level objective and a strongly convex lower-level problem. We consider a stochastic first-order oracle that returns unbiased stochastic gradients of both the upper- and lower-level objectives, with variance bounded by $\u03c3^2$. We prove that, for any initial optimality gap $\u0394>0$ and all sufficiently small $\u03b5>0$, every adaptive randomized first-order algorithm requires $\u03a9\\!\\left(\u0394\u03ba_y^2 \u03b5^{-2}\\max\\{1,\u03c3^2\u03ba_y^6\u03b5^{-4}\\}\\right)$ oracle queries to find an $\u03b5$-stationary point of its hyper-objective function, where $\u03ba_y$ denotes the condition number of the lower-level problem. In particular, in the noise-dominated regime, the lower bound is $\u03a9\\!\\left(\u0394\u03c3^2\u03ba_y^8\u03b5^{-6}\\right)$. This establishes the optimality of the $\u03b5^{-6}$ dependence achieved by the best-known first-order stochastic methods.",
+        "published": "2026-09-18T15:31:43+00:00",
+        "url": "https://arxiv.org/pdf/2609.21905v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21902v1",
+        "title": "Optimal study interior partitioning (OSIP): An optimization approach to observational study design under fine balance constraints",
+        "authors": [
+            "Ron Adar",
+            "Asaf Levin"
+        ],
+        "summary": "Covariate matching between treatment and control groups remains a foundational methodology in observational causal inference, designed to replicate the covariate balance of randomized controlled trials. Despite substantial methodological advancements, applied researchers continue to face an inherent trade-off between achieving rigorous balance and preserving the statistical power of the matched sample. We introduce a novel framework for a matching method named Optimal Study Interior Partitioning (OSIP). OSIP frames observational matching as a joint optimization problem governed simultaneously by a maximum cardinality constraint on the number of strata, and a strict fine balance threshold on the matching carried out in each strata. OSIP is based on two-stage optimization algorithm. In both stages it considers a projection of the (high-dimensional) data into one-dimensional space by evaluating an estimated propensity score for each unit. The method is based on enforcing a partition of the input to subsets of consecutive intervals of estimated propensity scores. The novelty arises because we consider this task as a global optimization problem. In the first stage, we employ an optimal partitioning algorithm with respect to an auxiliary (one-dimensional) goal function. In the second phase, we go back to the original distance function and apply heuristics approaches locally optimizing the solution from the first stage. We compare our framework with established methodologies from the literature across well-studied empirical benchmarks. We use the standard benchmark of Lindner cardiovascular dataset to demonstrate that OSIP provides a highly efficient sweet spot solution for the corresponding multi-criteria goal. This conclusion is verified by considering also other benchmark datasets.",
+        "published": "2026-09-18T15:30:39+00:00",
+        "url": "https://arxiv.org/pdf/2609.21902v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21899v1",
+        "title": "ExpBoN: Exponential-Noise Best-of-$n$ for Efficient Test-Time LLM Alignment",
+        "authors": [
+            "Yanxiao Liu",
+            "Sicheng Wan",
+            "Deniz G\u00fcnd\u00fcz"
+        ],
+        "summary": "Best-of-$n$ (BoN) sampling is a simple yet effective inference-time alignment method, but hard maximization provides only coarse control over the trade-off between reward and distribution shift. Soft Best-of-$n$ (Verdun et al. 2025) provides smoother control and converges to the optimal distribution associated with KL-regularized reward maximization. In this paper, we introduce ExpBoN, an alternative soft BoN method based on the exponential-noise report-noisy-max mechanism. It admits an exact finite-$n$ decomposition, which yields exponentially fast convergence in total variation, expected reward, and both directions of KL divergence. We provide comprehensive theoretical analyses of its convergence and regret behavior. We further integrate ExpBoN into the guided speculative inference (GSI) framework (Geuter, Mroueh, and AlvarezMelis 2025), resulting in ExpGSI, for efficient reward-guided LLM alignment. ExpGSI yields substantial reductions in computational cost while maintaining comparable accuracy. Experiments on MATH500, MMLU-STEM, and Minerva Math with the Qwen2.5-Math and Qwen3 model families show that ExpGSI reduces estimated computation by $14\\%$-$39\\%$ across candidate budgets for Qwen2.5-Math and by up to $45\\%$ at $n=16$ for Qwen3. Overall, our results provide a theoretical and algorithmic foundation for exponential-noise BoN and efficient test-time LLM alignment.",
+        "published": "2026-09-18T15:26:51+00:00",
+        "url": "https://arxiv.org/pdf/2609.21899v1",
+        "tags": [
+            "optimization",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21894v1",
+        "title": "LLMs as Feature Engineers for Text-and-Tabular Prediction",
+        "authors": [
+            "Merwan Barlier",
+            "Blaz Skrlj"
+        ],
+        "summary": "We introduce an iterative framework that automates the extraction of interpretable, schema-bound categorical features from unstructured text for tabular prediction models. To navigate the feature space, a generator LLM proposes semantic definitions, a separate extractor LLM materializes the features, and a downstream tabular model evaluates their predictive performance. We optimize this search by translating explicit model errors, such as AUC ranking inversions, into natural-language feedback, steering the LLM to resolve specific predictive failures. Evaluated across three public datasets, this error-driven loop accelerates feature discovery by up to $3\\times$ compared to unguided search. Empirically, the generated features demonstrate strong multi-view complementarity, strictly outperforming any subset when combined with TF-IDF and dense embeddings. Finally, the framework guarantees instance-level interpretability: the discovered features dominate SHAP importance rankings and provide a fully transparent, semantic audit trail for every prediction.",
+        "published": "2026-09-18T15:22:15+00:00",
+        "url": "https://arxiv.org/pdf/2609.21894v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21888v1",
+        "title": "Detecting Pretraining Data in Large Language Models from a Free-Energy Perspective",
+        "authors": [
+            "Chenye Ke",
+            "Zirui Liu",
+            "Qi Liu",
+            "Yan Zhuang",
+            "Jintao Zhang",
+            "Zhenya Huang",
+            "Shijin Wang"
+        ],
+        "summary": "Detecting pretraining data in large language models is challenging because high likelihood can reflect either training exposure or strong generalization. In the joint space of prediction loss and predictive entropy, a likelihood-only detector uses a horizontal boundary and can mistake predictable non-members for members. Motivated by this, we introduce an inclined boundary that evaluates prediction loss relative to predictive entropy. Our analysis shows that entropy correction can preserve the expected membership signal while reducing its variance, thereby improving standardized member--non-member separation. We further extend the mean--variance analysis to the more general setting with a nonzero mean entropy gap. Interestingly, this entropy-adjusted score admits a Helmholtz free-energy interpretation, leading to Energy Transfer Detection (ETD), which views pretraining data detection from a macroscopic residual free-energy transfer perspective. Extensive experiments show that ETD achieves the best average detection performance, improving average AUROC by up to 3.5\\% and TPR@5\\%FPR by up to 5.1\\%, while remaining robust across diverse settings.",
+        "published": "2026-09-18T15:16:51+00:00",
+        "url": "https://arxiv.org/pdf/2609.21888v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21880v1",
+        "title": "Near-Optimal Acceleration for Smooth $\\ell_p$ / $\\ell_q$ Nondual Convex First-Order Oracle Optimization",
+        "authors": [
+            "David Mart\u00ednez-Rubio",
+            "Brian Bullins",
+            "Crist\u00f3bal Guzm\u00e1n",
+            "Mathieu Molina"
+        ],
+        "summary": "We study the optimization of convex objectives with $(L,\u03ba-1)$-H\u00f6lder-continuous gradients in $\\ell_q$ over $R B_p^d$, $1<\u03ba\\le 2$. (MG26) provides selectors with a movement bound for the problem of chasing high-dimensional convex nested sets for every $p<q$ and generally reduces Lipschitz convex optimization to bounds on the movement of selectors. We couple that movement with H\u00f6lder descent yielding a polynomial-runtime first-order method whose feasible output, in the high-dimensional regime $T\\le d$ and for $p<\\min\\{q,2\\}$, has error $$\n  \\widetilde O_{\u03ba,p,q}\\!\\left(\n  \\frac{LR^\u03ba}{T^{\u03ba(1+1/p-(1/q-1/2)_+)-1}}\n  \\right), $$ after $T$ queries to a first-order oracle, solving the COLT 2015 open problem of (Guz15), up to logarithmic factors. At $(p,q)=(1,2)$, the rate is $\\widetilde{O}(LR^\u03ba/T^{2\u03ba-1})$, including $\\widetilde{O}(LR^2/T^{3})$ cubic decay in the smooth case.",
+        "published": "2026-09-18T15:07:30+00:00",
+        "url": "https://arxiv.org/pdf/2609.21880v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21878v1",
+        "title": "Application of Optimal Inexact Second-Order Acceleration to Distributed Stochastic Optimization under Statistical Similarity",
+        "authors": [
+            "Yury A. Sokolov",
+            "Maxim K. Mashtaler",
+            "Alexander V. Gasnikov",
+            "Martin Tak\u00e1\u010d",
+            "Dmitry I. Kamzolov",
+            "Artem D. Agafonov"
+        ],
+        "summary": "We consider distributed stochastic convex optimization with a fixed budget of $N$ independent samples split among $m$ workers. Sample average approximation reduces the problem to a regularized finite-sum problem whose local Hessians are statistically similar. This allows the Hessian of the local objective at the server to be used as an inexact Hessian of the global objective, while the workers communicate only gradients. We apply the optimal accelerated inexact Newton extragradient method of (Chen et al., 2026) and propose its distributed restarted variant for the strongly convex empirical problem. The method reaches the statistical accuracy of order $N^{-1/2}$ in $\\widetilde O\\left(\\max\\{N^{1/7},m^{1/4}\\}\\right)$ communication rounds. Hence, with $m=N^{4/7}$ workers, it requires $\\widetilde O\\left(N^{1/7}\\right)$ rounds, improving the dependence on the total sample size from $\\widetilde O\\left(N^{1/6}\\right)$ for the previous accelerated cubic Newton construction of (Agafonov et al., 2021). Each iteration uses two gradient aggregation rounds and does not require Hessian communication.",
+        "published": "2026-09-18T15:03:51+00:00",
+        "url": "https://arxiv.org/pdf/2609.21878v1",
+        "tags": [
+            "optimization",
+            "approximation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21876v1",
+        "title": "Geometric Mean Pooling for Equal-Weight Multiplicative Coarse-Graining",
+        "authors": [
+            "Ang-Kun Wu",
+            "Fangdi Wen",
+            "Jingtao Zhang"
+        ],
+        "summary": "As an alternative to the additive and extremal biases of average and max pooling, we introduce Geometric Mean Pooling (GMP), a signed pooling operator that combines the product of feature signs with the geometric mean of feature magnitudes. Motivated by local-to-global composition in quantum many-body physics, GMP retains both joint sign information and a characteristic multiplicative scale without introducing learnable pooling parameters. We show that non-overlapping hierarchical GMP preserves the corresponding global multiplicative statistic and evaluate it on synthetic sequence tasks, iterative coarse-graining, image classification, and molecular lipophilicity regression. On the synthetic tasks, GMP recovers product-based signals more accurately than average and max pooling and maintains predictive performance under the tested levels of multiplicative input noise. On image and molecular data, however, its effectiveness depends on the representation, target parameterization, and placement of local and global pooling. These results position GMP as a complementary, regime-dependent inductive bias for tasks in which equal-weight multiplicative composition is plausible, rather than as a universal replacement for standard pooling operators.",
+        "published": "2026-09-18T15:02:23+00:00",
+        "url": "https://arxiv.org/pdf/2609.21876v1",
+        "tags": [
+            "implicit bias"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21870v1",
+        "title": "Neural Cellular Automata Learn General Features in their Hidden Channels",
+        "authors": [
+            "Etienne Guichard",
+            "Stefano Nichele"
+        ],
+        "summary": "Modern deep learning models achieve impressive generalization through over-parameterization, but this paradigm often struggles with overfitting and memorization in few-shot regimes. Neural Cellular Automata (NCAs) offer a highly parameter-efficient alternative, yet research has focused primarily on their output, leaving the role of their internal hidden channels largely unexplored. In this paper, we investigate the internal dynamics of NCA hidden channels and introduce a novel transfer-learning mechanism that injects a pretrained teacher's hidden states into a student model to guide early optimization. Evaluated on few-shot and scale-variant MNIST benchmarks, NCAs outperform comparable recurrent and feed-forward architectures, demonstrating superior generalization with a minimal parameter budget (~9,800 parameters). Mechanistic analysis reveals that the hidden channels decouple feature extraction from uniform classification consensus by absorbing morphological complexity and converging to mutually orthogonal states. Furthermore, we demonstrate that these hidden channels capture general, scale-invariant topological primitives rather than class-specific templates. This allows a student model to achieve strong few-shot performance on unseen classes using features transferred from a teacher trained only on a subset of digits (0-5). Our results highlight the potential of utilizing hidden-state dynamics as a robust, decentralized computational substrate for parameter-efficient transfer learning",
+        "published": "2026-09-18T14:58:18+00:00",
+        "url": "https://arxiv.org/pdf/2609.21870v1",
+        "tags": [
+            "optimization",
+            "generalization",
+            "implicit bias"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21849v1",
+        "title": "The Weight Is Over - Interactive Diffusion on Consumer GPUs",
+        "authors": [
+            "Frieder Ganz",
+            "Maximilian M\u00fcller"
+        ],
+        "summary": "On-device inference is booming, but the momentum is almost all in language models. Diffusion pipelines are memory hungry, latency-sensitive, and require orchestrating an embedder, a transformer, a decoder, and often further postprocessing that is not as standardized as LLM inference loops are. We navigate the trade-off between performance, quality, and model footprint to reach as many client devices in the wild as possible. We make three contributions: an embedding translator that maps a small text encoder into a large encoder space to cut weight and latency; a reproducible sweep recipe for navigating the speed/quality/memory triangle in diffusion pipelines; and an interactive on-device image generation editor achieving sub-second TTFI on recent GPUs.",
+        "published": "2026-09-18T14:42:55+00:00",
+        "url": "https://arxiv.org/pdf/2609.21849v1",
+        "tags": [
+            "generative models"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21834v1",
+        "title": "Beyond Shadow Weights: Quantization-Aware Training as Quantized-Endpoint Descent",
+        "authors": [
+            "Sheng-An Xu",
+            "Hanyang Li",
+            "Jianhao Ma",
+            "Ying Cui"
+        ],
+        "summary": "Quantization-aware training (QAT) updates a full-precision shadow weight $\\mathbf{x}$ but deploys the quantized endpoint $Q(\\mathbf{x})$. Existing explanations for QAT largely view its success through the lens of shadow weights: QAT can move $\\mathbf{x}$ toward flatter basins, gain robustness from quantization-induced oscillations, or balance the shadow loss $f(\\mathbf{x})$ against the quantization error $\\|\\mathbf{x}-Q(\\mathbf{x})\\|_2$. These perspectives do not directly explain the empirical observation that the deployed endpoint loss $f(Q(\\mathbf{x}))$ improves while the shadow loss $f(\\mathbf{x})$ does not, and can even increase substantially. In this paper, we offer a different explanation by treating QAT as finite-grid endpoint dynamics. Motivated by the approximate normality of rescaled pretrained weights, we propose an idealized model for the residual phase, which records where each shadow weight sits inside its quantization cell as a fraction of the cell width. This model leads to a crossing law that determines which coordinates cross quantization boundaries after a shadow update. Inspired by the idealized model and signal-imbalance phenomenon in QAT, we further propose QAR (Quantization with Amplified Routing), an algorithmic framework that directly operates on the quantization code. In contrast to QAT, QAR is both theoretically grounded and memory-efficient: it admits feasible-gradient bounds for a family of power amplifiers up to unavoidable finite-grid floors without retaining a full-precision shadow weight copy. Experiments on post-training of large language models provide evidence consistent with the endpoint view and show that QAR can be comparable to or better than QAT with smaller memory cost.",
+        "published": "2026-09-18T14:32:09+00:00",
+        "url": "https://arxiv.org/pdf/2609.21834v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21831v1",
+        "title": "A Tight Surrogate-Based Adaptive Step Size for the Multiobjective Conditional Gradient Method",
+        "authors": [
+            "Wang Chen",
+            "Yong Zhao",
+            "Liping Tang",
+            "Xinmin Yang"
+        ],
+        "summary": "The multiobjective conditional gradient (MCondG) method is an effective descent-type algorithm for solving constrained multiobjective optimization problems. In this algorithm, the adaptive step size is derived by minimizing a one-dimensional convex quadratic surrogate function, which guarantees a sufficient decrease in all objective functions at each iteration. However, we observe that this surrogate function is relatively conservative, producing overly small step sizes and consequently slowing the convergence of the algorithm. This conservativeness stems from the fact that the surrogate function is dominated by the largest Lipschitz constant among the gradients of all objective functions. Motivated by this observation, we develop a tighter quadratic surrogate function that exploits the individual gradient Lipschitz constants. Based on this surrogate, we propose a new adaptive step size strategy obtained by evaluating this surrogate over a finite candidate set. We prove that the proposed step size preserves the descent property of the MCondG method, and has an improved worst-case complexity bound compared with the original adaptive step size strategy. Numerical experiments on benchmark and real-world problems demonstrate the effectiveness of the proposed strategy in terms of computational efficiency and solution quality.",
+        "published": "2026-09-18T14:30:04+00:00",
+        "url": "https://arxiv.org/pdf/2609.21831v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21829v1",
+        "title": "Federated Deep Clustering Networks for High-Dimensional and Heterogeneous Data",
+        "authors": [
+            "Morris Stallmann",
+            "Charalampos S. Kouzinopoulos",
+            "Marcin Pietrasik",
+            "Anna Wilbik"
+        ],
+        "summary": "Clustering high-dimensional data is a fundamental task in unsupervised machine learning with applications to a variety of domains. In the centralized data scenario, this task is commonly solved using deep clustering methods that utilize deep neural network architectures to learn clustering-friendly latent space representations. In Federated Learning, where data is distributed between clients and is private, deep clustering methods are less explored. In particular, recently introduced federated deep clustering methods, despite showing very promising performance, still fall short in reliably providing good performance if data across clients are non-identically-independently distributed. In this work, we introduce a generalization of Deep Clustering Networks to the federated scenario, named FedDCN, that simultaneously optimizes a reconstruction loss and a clustering loss. To ensure robustness and latent space alignment in non-identically-independently distributed data scenarios, FedDCN generates synthetic data augmentations, and its learning objective includes a geometric regularization for latent space alignment. Through experimental evaluation, the effectiveness of the approach under IID and non-IID assumptions is demonstrated, and future research directions are identified.",
+        "published": "2026-09-18T14:29:31+00:00",
+        "url": "https://arxiv.org/pdf/2609.21829v1",
+        "tags": [
+            "generalization",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21821v1",
+        "title": "Adaptive Uncertainty-Aware Modeling and Stochastic Radial Basis Function Predictive Control for Personalized Fluid Resuscitation",
+        "authors": [
+            "Elham Estiri",
+            "Hossein Mirinejad"
+        ],
+        "summary": "This paper presents a novel framework integrating Bayesian physiological modeling with optimal control strategies to achieve uncertainty-aware, personalized hemodynamic regulation during fluid resuscitation. An uncertainty-aware variational autoencoder state-space model (UVAE-SSM) was first developed to capture the dynamical relationship between mean arterial pressure (MAP) and fluid infusion using limited data, while explicitly modeling aleatoric uncertainty (i.e., randomness in the measurements, such as sensor noise). Then, a Bayesian nonlinear state-space model (BNSSM) was developed by utilizing Bayesian neural networks (BNNs) to capture epistemic uncertainty arising from physiological and patient-specific variability, enabling the creation of a virtual patient generator (VPG). Building on this uncertainty-aware modeling framework, a stochastic radial basis function model predictive control (sRBF-MPC) algorithm was designed to track the MAP target while satisfying physiological constraints. Finally, an online fine-tuning algorithm was developed to adapt the nominal UVAE-SSM using streaming VPG data, enabling progressive personalization during closed-loop therapy. Simulation results across unseen animal subjects and an independent human clinical dataset demonstrated the strong predictive accuracy and cross-population generalizability of the UVAE-SSM and BNSSM models. Closed-loop evaluations confirmed that the proposed sRBF-MPC framework achieved stable MAP regulation while providing better risk-aware control compared to quadratic MPC (Q-MPC) and stochastic quadratic MPC (sQ-MPC). Overall, the proposed framework accounts for inter- and intra-patient variability through online model adaptation, offering a promising step toward uncertainty-aware, personalized hemodynamic modeling and control in critical care.",
+        "published": "2026-09-18T14:25:29+00:00",
+        "url": "https://arxiv.org/pdf/2609.21821v1",
+        "tags": [
+            "generative models"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21815v1",
+        "title": "Matrix AdaGrad: Row-wise and Column-wise Adaptive Subgradient Methods",
+        "authors": [
+            "Wenpeng Zhang",
+            "Runsheng Yu",
+            "Peilin Zhao"
+        ],
+        "summary": "Adaptive optimization methods such as AdaGrad and Adam are widely used in modern neural-network training, but their adaptive scaling is primarily designed for vector-valued parameters and does not explicitly exploit matrix structure. Recent matrix-aware optimizers demonstrate the benefits of structured optimization, yet a general theoretical framework for deriving matrix-aware adaptivity comparable to that of AdaGrad remains lacking. In this work, we develop a general Online Mirror Descent framework with adaptive proximal functions for matrix-valued parameters, providing a principled approach to deriving matrix-aware adaptive optimization through online regret minimization. By introducing row-wise and column-wise matrix proximal functions and analyzing the resulting regret trade-off, we derive Row-wise Matrix AdaGrad (Row-AdaGrad) and Column-wise Matrix AdaGrad (Column-AdaGrad), with adaptive scaling determined by the accumulated row-wise or column-wise gradient norms. We establish regret guarantees and show that these matrix-aware bounds can be strictly tighter than those of entry-wise AdaGrad under structured gradients. Experiments on matrix factorization and deep neural-network training further demonstrate the benefits of aligning adaptive scaling with matrix structure, including improved optimization stability and trainability at larger learning rates and greater network depths.",
+        "published": "2026-09-18T14:22:26+00:00",
+        "url": "https://arxiv.org/pdf/2609.21815v1",
+        "tags": [
+            "optimization",
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21808v1",
+        "title": "Distributed Intraday Energy Management for 16.7-Hz Railway Power Systems---Part I: Theoretical Foundations",
+        "authors": [
+            "Navid Noroozi"
+        ],
+        "summary": "In a series of three papers, we propose a distributed intraday scenario planner for energy management in 16.7-Hz single-phase railway power systems, which is realized and tested as open-source Python package \\texttt{bahnstrom\\_ems v0.9.1}~\\cite{noroozi2026bahnstromems}. The first part of our work develops the mathematical foundation of a two-layer energy management system for a 16.7-Hz single-phase railway power network, where the network is an interconnection of several control areas. Given a day-ahead plan, last measurement of stored energy in wayside batteries, and forecasts of the tractive, available regenerative and renewable energy, we provide a mathematical modeling of the 16.7-Hz single-phase railway power network in intraday time-scale. Then the intraday energy planning is formulated as a risk-neutral convex stochastic optimization problem. The overall intraday planning is shown to be a sparse convex quadratic program. Hence, this problem is solved recursively by adopting a distributed scenario model predictive control (MPC) setting. The corresponding area problems, coordination updates, convergence conditions, and closed-loop key-performance-index accumulation are derived. In practice, detailed train-motion and microscopic motoring and regenerative-power profiles are usually needed for accurate simulations and numerical validation purposes. Due to data privacy and security concerns, detailed train-motion and microscopic motoring and regenerative-power profiles in a real power network may not be publicly available. Therefore, we also propose a mathematically-solid approach to estimate such microscopic information by converting causally timetable and train-motion information into quarter-hour motoring and regenerative-power profiles while exactly preserving each hourly energy target.",
+        "published": "2026-09-18T14:18:55+00:00",
+        "url": "https://arxiv.org/pdf/2609.21808v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21794v1",
+        "title": "Shape optimisation of the first solenoidal Maxwell eigenvalue",
+        "authors": [
+            "Antoine Henrot",
+            "Idriss Mazari-Fouquer",
+            "Yannick Privat",
+            "Dominik Stantejsky"
+        ],
+        "summary": "We study the minimisation of the first solenoidal Maxwell eigenvalue $\u03bb_1^{\\mathrm{Max}}(\u03a9)$ in perfectly conducting cavities through the scale-invariant functional $J_{\\mathrm{Per}}(\u03a9):=\\mathrm{Per}(\u03a9)\u03bb_1^{\\mathrm{Max}}(\u03a9)$ in $\\mathbb R^3$. While the corresponding unconstrained problem is known to be ill-posed, we focus on bounded convex cavities and prove that $J_{\\mathrm{Per}}$ has a positive infimum in this class. The proof relies on the study of the three main possible behaviours for sequences of convex domains with bounded perimeter: convergence to a bounded convex domain with non-empty interior, collapse to a planar domain or collapse to a one-dimensional domain. The case of a planar collapse is handled through projection arguments, yielding a lower bound, while that of a one-dimensional collapse is controlled by a different argument, showing that in that case $J_{\\mathrm{Per}}$ must diverge to $+\\infty$. Although the question of existence of an optimal shape (that is, ruling out planar collapse) remains open, we derive several negative results and obstructions to existence; typically, no minimiser with a $\\mathscr C^{3,+}$ boundary exists. This relies on a fine analysis of first-order optimality conditions.",
+        "published": "2026-09-18T14:06:43+00:00",
+        "url": "https://arxiv.org/pdf/2609.21794v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21791v1",
+        "title": "RegKT: Interpretable and Robust Deep Knowledge Tracing With IRT-Regularizer",
+        "authors": [
+            "Samuel Girard",
+            "Juan D. Pinto",
+            "Jill-J\u00eann Vie",
+            "Amel Bouzeghoub"
+        ],
+        "summary": "As deep learning models continue to advance, knowledge tracing models have achieved higher accuracy. However, these gains come at the cost of reduced interpretability, which is crucial for practitioners in educational settings to adopt new methodologies. Additionally, deep learning models are prone to overfitting, particularly when dealing with the small datasets that are common in educational applications. In this paper, we propose a novel regularization technique designed to enhance the robustness of deep-learning-based knowledge tracing models, while simultaneously improving their interpretability. Our method addresses both the interpretability and overfitting challenges, making it more feasible for real-world educational applications.",
+        "published": "2026-09-18T14:05:29+00:00",
+        "url": "https://arxiv.org/pdf/2609.21791v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21758v1",
+        "title": "Bilevel Optimization of Topology and Hyperparameters (BOTH)",
+        "authors": [
+            "Suryanarayanan Manoj Sanu",
+            "Miguel Anibal Bessa",
+            "Alejandro Marcos Arag\u00f3n"
+        ],
+        "summary": "Topology optimization (TO) represents a significant step towards automating the design process: given a working simulation, TO can produce a viable prototype at the press of a button by differentiating the simulation and iteratively improving the design. In practice, however, TO is riddled with ``magic numbers''---hyperparameters whose tuning significantly affects the outcome. Finding the right values typically requires not only deep problem-specific knowledge but also extensive trial-and-error. While practitioners can use surrogate-assisted hyperparameter optimization as an alternative, this approach requires strictly limiting the number of hyperparameters through careful problem formulation. Here, we propose differentiating TO itself using automatic differentiation. This yields ``hypergradients'' that allow us to tune these hyperparameters in tandem with the primary optimization. We show that evaluating just one or two steps of TO is sufficiently informative and that the method scales favorably to thousands of hyperparameters at an expense comparable to only a few standard TO runs. We demonstrate this approach on stress-constrained and compliance problems, with the latter utilizing a neural parameterization of the density field.",
+        "published": "2026-09-18T13:29:55+00:00",
+        "url": "https://arxiv.org/pdf/2609.21758v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21749v1",
+        "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+        "authors": [
+            "Rui Sun",
+            "Zhi Zheng",
+            "Zhenkun Wang",
+            "Zhichao Lu"
+        ],
+        "summary": "Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance, while skill optimization further improves their effectiveness through iterative refinement. However, existing skill optimization methods typically represent skills as unstructured natural-language instructions, creating two key challenges: 1) Unstructured skills often lack explicit workflow-level guidance and contain substantial redundancy, making them difficult for LLMs to execute; 2) the vast search space of unconstrained natural-language skills makes skill optimization ineffective. To address these challenges, we propose representing skills as graph-structured natural-language artifacts. In graph-structured skills, each node represents an execution step together with its operational guidance, while directed edges encode context-dependent transitions between steps. Compared to unstructured skills, graph-structured skills can provide clear workflow-level guidance. Moreover, the proposed graph-structured skill can also facilitate skill optimization. Building on this structured representation, we introduce GraphSkillEvo, a population-based evolutionary optimization framework with mutation and crossover operators for graph-structured skills. By maintaining multiple candidate skills and combining effective components, GraphSkillEvo enables broader and more comprehensive exploration of the structured skill space than purely LLM-based iterative self-refinement. Extensive experiments across five agent benchmarks demonstrate that GraphSkillEvo consistently outperforms the strong skill optimization baseline SkillOpt, improving average accuracy by 4.01% on GPT-5.4-nano and 1.76% on GPT-5.4. Our code is available at https://github.com/ruisun7/GraphSkillEvo.",
+        "published": "2026-09-18T13:24:33+00:00",
+        "url": "https://arxiv.org/pdf/2609.21749v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21747v1",
+        "title": "Single-Loop Stochastic Projected Damped Extragradient Methods for Stochastic Nonconvex--(Strongly) Concave Minimax Optimization",
+        "authors": [
+            "Huiling Zhang",
+            "Minhao Zhang",
+            "Zi Xu"
+        ],
+        "summary": "We develop single-loop stochastic projected damped extragradient methods for stochastic nonconvex--(strongly) concave minimax optimization, with complexity guarantees for both game stationarity (GS) and optimization stationarity (OS). Our approach combines a stochastic projected damped extragradient (SPDE) method with a recursive variance-reduced variant, VR-SPDE, both of which retain a single-loop structure. Under an unbiased stochastic gradient oracle with uniformly bounded variance, SPDE finds an $\\varepsilon$-game-stationary point with stochastic first-order oracle (SFO) complexities of $O(\u03ba\\varepsilon^{-4})$ and $O(\\varepsilon^{-5})$ in the nonconvex--strongly concave and nonconvex--concave settings, respectively, where $\u03ba=L/\u03bc$. Under an additional mean-square Lipschitz condition on the stochastic gradients, VR-SPDE improves these GS complexities to $O(\u03ba^{3/2}\\varepsilon^{-3})$ and $O(\\varepsilon^{-9/2})$, respectively. For an $\\varepsilon$-optimization-stationary point, SPDE achieves SFO complexities of $O(\u03ba\\varepsilon^{-4})$ and $O(\\varepsilon^{-6})$, while VR-SPDE achieves $O(\u03ba^{3/2}\\varepsilon^{-3})$ and $O(\\varepsilon^{-6})$, in the two settings, respectively. These OS guarantees match the best-known bounds achieved by multi-loop methods while preserving a single-loop implementation. To the best of our knowledge, our results provide the best-known SFO complexity guarantees among single-loop stochastic first-order methods for the respective stationarity criteria and problem classes.",
+        "published": "2026-09-18T13:24:01+00:00",
+        "url": "https://arxiv.org/pdf/2609.21747v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21730v1",
+        "title": "Connections Between Quadratic Transform for Fractional Programming and Schur Complement",
+        "authors": [
+            "Kaiming Shen",
+            "Kareem M. Attiah",
+            "Yannan Chen",
+            "Wei Yu"
+        ],
+        "summary": "This paper shows that there are intimate connections between the quadratic transform technique for solving fractional programming (FP) problems and the Schur-complement technique in matrix analysis. We demonstrate that the quadratic transform technique is related to two aspects of the Schur complement: (i) the linear matrix inequality (LMI) condition for positive semidefiniteness and (ii) the matrix determinant formula. Specifically, we establish that the quadratic transform and the Schur-complement LMI condition imply each other. This connection allows us to provide new interpretations of the auxiliary variable in the quadratic transform, and it allows us to rederive the Schur-complement determinant formula. Furthermore, this connection leads to generalizations of the quadratic transform in FP and the Schur-complement LMI that can accommodate generalized matrix inverse. As an application in information theory, we apply the generalized FP framework to the least-favorable-noise minimax formulation of the Gaussian vector broadcast channel sum capacity problem. When the least-favorable noise covariance is singular, matrix-inverse-based Karush-Kuhn-Tucker (KKT) analysis would require a careful analysis of the input and output spaces of the channel. We show using generalized FP that an auxiliary-variable representation of the singular matrix fraction directly yields the reciprocal multiple-access channel and recovers the uplink-downlink duality relation for sum capacity.",
+        "published": "2026-09-18T13:06:10+00:00",
+        "url": "https://arxiv.org/pdf/2609.21730v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21710v1",
+        "title": "Parameter estimation for graphon-interacting particle systems from discrete observations",
+        "authors": [
+            "Chiara Amorino",
+            "Matteo Sfragara"
+        ],
+        "summary": "In this paper, we address the joint parameter estimation of drift and diffusion coefficients for heterogeneously interacting particle systems. Unlike the homogeneous setting, the interactions are governed by a graphon-weighted mean-field framework, which introduces significant analytical complexity: while homogeneous systems yield i.i.d. limits, our setting results in particles that are independent but non-identically distributed in the limit. Based on discrete observations of the system over a fixed time interval $[0, T]$, we propose a contrast function based on a pseudo-likelihood approach. We prove the consistency of the resulting estimators as the discretization step $\u0394_n \\to 0$ and the number of particles $N \\to \\infty$. Furthermore, we establish asymptotic normality under the additional constraint $N \u0394_n \\to 0$, demonstrating that the underlying graphon structure can be rigorously handled despite the lack of identical distribution in the limit.",
+        "published": "2026-09-18T12:48:36+00:00",
+        "url": "https://arxiv.org/pdf/2609.21710v1",
+        "tags": [
+            "generative models"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21701v1",
+        "title": "A Partial Fay-Herriot model for Small Area Estimation: Estimating district-level consumption in Mozambique",
+        "authors": [
+            "Francesco Schirripa Spagnolo",
+            "Nicola Salvati",
+            "Enrico Fabrizi"
+        ],
+        "summary": "This paper proposes a new small area estimation approach that integrates Partial Least Squares within the Fay-Herriot model to address the challenges posed by high-dimensional and highly correlated auxiliary variables sets. The resulting Partial Fay-Herriot (PFH) estimator constructs supervised components that maximize their association with the target variable, enhancing model stability and predictive efficiency. Monte Carlo simulations demonstrate that PFH estimator achieves lower mean squared error than the standard Fay-Herriot estimator and outperforms principal components-based alternatives while relying on fewer latent dimensions. The methodology is applied to the estimation of district-level per capita consumption in Mozambique, where the survey data source is complemented by large set of correlated census variables. The resulting estimates highlight pronounced geographic heterogeneity and uncover spatial clusters of deprivation. Overall, the findings show that the proposed supervised dimension-reduction approach represents an effective and easily interpretable tool for producing reliable indicators in high-dimensional contexts.",
+        "published": "2026-09-18T12:35:59+00:00",
+        "url": "https://arxiv.org/pdf/2609.21701v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21693v1",
+        "title": "Optimization Geometry of Equivalent Brownian RKHS Representations",
+        "authors": [
+            "Mahdi Mohammadigohari",
+            "Gustau Camps-Valls"
+        ],
+        "summary": "Equivalent finite parameterizations can represent the same functions and intrinsic norm yet induce different optimization algorithms. We study this effect in a controlled finite Brownian RKHS with nodal, increment, and spectral coordinates. Classical finite-element, RKHS-interpolation, Brownian-covariance, and mixed-boundary DCT identities make the shared hypothesis class, Brownian energy, approximation operator, and coordinate maps explicit. Our main results concern the optimization geometry of this fixed model. With mapped initialization, identical scalar steps, and identical minibatches, nodal and spectral GD/SGD have exactly the same mapped trajectories. Increment GD is an explicit Euler step for the constant Brownian/Sobolev metric, with factor $1/h$. For Brownian-regularized least squares, $\u03ba_2(\\mathbf H_{\\mathrm{inc}})\\le1+A/\u03c1$, independently of grid resolution $G$ for fixed $A$, $\u03c1>0$, and the stated normalization. Under the stated standard-Adam convention, the universal orthogonal equivariance group is exactly the signed permutations; the block DCT-VIII transform is not one. Float64 tests over five grids numerically verify the finite identities, mapped one-layer and recursive trajectories, conditioning predictions, and theorem-matched Adam separation. Thus coordinate effects are isolated without changing the represented functions, intrinsic regularizer, or approximation space.",
+        "published": "2026-09-18T12:28:20+00:00",
+        "url": "https://arxiv.org/pdf/2609.21693v1",
+        "tags": [
+            "optimization",
+            "approximation",
+            "interpolation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21664v1",
+        "title": "Multi-Domain Clustering via Measure Quantization",
+        "authors": [
+            "Rafael Pereira Eufrazio",
+            "Eduardo Fernandes Montesuma",
+            "Charles Casimiro Cavalcante"
+        ],
+        "summary": "Clustering is a fundamental task in data analysis, typically addressed through centroid-based methods such as K-means. In this work, we present a general framework for multi-domain clustering via measure quantization: given samples from multiple domains, we learn a shared set of cluster prototypes by minimizing a probability metric, such as the Sinkhorn divergence or the Maximum Mean Discrepancy, between each domain's probability measure and the measure of prototypes. Data points are then assigned to clusters either via nearest centroid, or via optimal transport, a collaborative strategy that couples all samples within a domain. A mini-batch optimization strategy makes both fitting and assignment scalable, reducing memory and computational cost while preserving clustering performance. Experimental results on 5 multi-domain benchmarks spanning image, audio and sensor data show that our Sinkhorn-based method consistently outperforms classical and multi-domain clustering baselines, and that this advantage persists when scaling to hundreds of thousands of samples.",
+        "published": "2026-09-18T12:00:56+00:00",
+        "url": "https://arxiv.org/pdf/2609.21664v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21656v1",
+        "title": "Beyond Gaussian Worlds: Latent Geometry Matters for JEPAs",
+        "authors": [
+            "L\u00e9o Nicollier",
+            "Enric Meinhardt-Llopis",
+            "Marc Pic",
+            "Pablo Mus\u00e9",
+            "Gabriele Facciolo"
+        ],
+        "summary": "Recent Joint-Embedding Predictive Architectures (JEPAs) prevent representation collapse by constraining learned representations to follow a prescribed target distribution, such as an isotropic Gaussian or the uniform distribution on a hypersphere. Klindt et al. (2026) showed that, under their Euclidean assumptions, matching a Gaussian target can recover Gaussian latent variables up to a linear transformation, and that the Gaussian is the unique distribution with this guarantee. We extend their analysis to latent variables supported on embedded Riemannian manifolds and derive conditions on the latent geometry and positive-pair dynamics under which alignment and exact distribution matching guarantee linear recovery. In particular, when the latent variables are uniformly distributed on a sphere and the representations are matched to the same spherical distribution, every optimal representation recovers the latent state up to an orthogonal transformation. This shows that Gaussian uniqueness is not a universal property of distribution-matched JEPAs: non-Euclidean latent geometries can admit other linearly recoverable distributions. We further derive an approximate-recovery bound that is strictly tighter for the spherical world than for the Gaussian world. Experiments on Gaussian, spherical, and toroidal latent spaces show that geometrically compatible targets yield better linear recovery when optimization succeeds, whereas mismatched targets distort the latent structure. This advantage persists in high-dimensional Clifford-torus worlds.",
+        "published": "2026-09-18T11:54:29+00:00",
+        "url": "https://arxiv.org/pdf/2609.21656v1",
+        "tags": [
+            "optimization",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21655v1",
+        "title": "Analysing the Linearity of Linguistic Relations in Language Model Embedding Spaces",
+        "authors": [
+            "Vasudevan Nedumpozhimana",
+            "Fathima Thekkekara",
+            "John Kelleher"
+        ],
+        "summary": "We propose a framework to analyse how strongly different linguistic relations are linearly encoded in language model embedding spaces. We formalise linear encoding via a constrained linear approximation over related and unrelated word pairs and apply this to an extended BATS dataset covering inflectional, derivational, lexicographic, and encyclopedic relations in GloVe, RoBERTa, and ModernBERT. Our experiments show near-perfect linear encodings for inflectional and derivational relations, but substantially higher errors for lexicographic and encyclopedic relations, especially for one-to-many and many-to-many associations. We also find that RoBERTa and ModernBERT generally encode relations more linearly than GloVe. These results indicate that our framework can reveal which relational structures are most linearly accessible in embeddings, offering a compact tool for probing and comparing relational geometry across models.",
+        "published": "2026-09-18T11:53:43+00:00",
+        "url": "https://arxiv.org/pdf/2609.21655v1",
+        "tags": [
+            "approximation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21647v1",
+        "title": "Riemannian Neural Hamiltonian Flows: Geodesic Symplectic Transport and Interpretability",
+        "authors": [
+            "Vincent Souveton"
+        ],
+        "summary": "Hamiltonian normalizing flows are attractive generative models because their phase-space maps are invertible and volume preserving, but most neural constructions are formulated in Euclidean space. We introduce Riemannian Neural Hamiltonian Flows, which combine the fixed kinetic energy of a Riemannian manifold, a learned scalar potential, and an explicit geodesic leapfrog integrator. Our analysis explains how the learned Hamiltonian can be made interpretable. Every normalizable potential defines an implicit profile, and the position marginal initially accelerates along the relative score between that profile and the base. The matched potential is the interpretable specialization for which the implicit profile is the target. In the isotropic Gaussian case, the mechanism corresponds to a phase-space rotation. A local harmonic analysis extends this result around each mode of a general target on a manifold. The gap between the learned and the matched potential is the sum of a residual memory of the base and a bias of the model, and the two potentials agree when the position base has been transferred to the momentum. This can be achieved when the former is broader than the target. Numerical experiments on Euclidean, hyperbolic, and spherical spaces show competitive sample quality and numerical cost against a Riemannian continuous normalizing flow, and confirm the interpretability of the learned potential.",
+        "published": "2026-09-18T11:40:24+00:00",
+        "url": "https://arxiv.org/pdf/2609.21647v1",
+        "tags": [
+            "generative models",
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21567v1",
+        "title": "Weighted Quantum Signal Processing: Low-Depth Polynomial Approximation with Applications to Kolmogorov-Arnold Networks",
+        "authors": [
+            "Rohit Sarma Sarkar",
+            "Rupayan Bhattacharjee",
+            "Elias F. Combarro",
+            "Michele Grossi",
+            "Lirand\u00eb Pira",
+            "Carmen G. Almud\u00e9ver",
+            "Sergi Abadal",
+            "Eduard Alarcon"
+        ],
+        "summary": "Quantum Signal Processing is a powerful quantum framework for generating and approximating univariate polynomials. However, QSP is often limited by circuit-depth bottlenecks and parity constraints on the class of realizable polynomials. In this work, we introduce Weighted Quantum Signal Processing, an extension of QSP in which a weight function is assigned to the central rotation operator. This formulation provides a deeper understanding of QSP, which emerges as the special case of WQSP with unit weights. The choice of weights determines the structure and expressive capabilities of WQSP circuits. When the weights are natural numbers greater than one, WQSP reduces to a pruned version of QSP, revealing parameter redundancies in the standard framework. Through appropriate selection of integer weights, WQSP achieves linear-to-exponential reductions in the number of parameters required to realize arbitrary bounded univariate polynomials while preserving approximation quality. For generic weights, we establish corresponding approximation error bounds and show that, in many cases, the approximation is exact. We analyze WQSP from both a deterministic perspective, where polynomial generation is formulated as the solution of a linear system, and a quantum machine learning perspective, where WQSP serves as a structured and expressive quantum learning model. We further employ this learning framework to parameterize learnable activation functions in Kolmogorov--Arnold Networks for multivariate function approximation. Our results show that WQSP provides a compact, flexible, and theoretically grounded framework for realizing arbitrary univariate polynomials while requiring significantly fewer trainable parameters than conventional QSP. This yields expressive and parameter-efficient neural architectures, highlighting the potential of WQSP as a scalable primitive for quantum-enhanced machine learning.",
+        "published": "2026-09-18T09:55:42+00:00",
+        "url": "https://arxiv.org/pdf/2609.21567v1",
+        "tags": [
+            "approximation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21550v1",
+        "title": "OneBid: A Unified Auto-Bidding Foundation Model for Diverse oCPX Advertising Scenarios",
+        "authors": [
+            "Yewen Li",
+            "Peng Jiang",
+            "Yitian Li",
+            "Pengfei Lv",
+            "Xialong Liu",
+            "Peng Jiang",
+            "Qingpeng Cai"
+        ],
+        "summary": "Auto-bidding is central to computational advertising, where strategies must maximize advertisers' conversion value under economic constraints. It has evolved from rule-based controllers to reinforcement learning and generative methods such as Decision Transformer (DT). Yet these methods increasingly mismatch the prevailing optimized cost-per-X (oCPX) paradigm, which spans heterogeneous scenarios (e.g., registration, purchase), each served by a separate model, leading to fragmented pipelines and underexploring cross-scenario modeling. Inspired by foundation models like LLMs, unifying these oCPX scenarios into one model raises three challenges: multi-objective control, scalable capacity under strict latency, and safe offline policy improvement. We present OneBid, a unified auto-bidding foundation model that learns a reusable backbone from heterogeneous oCPX logs and adapts it to scenario-specific deployments via offline post-training. Building on DT, OneBid extends single Return-to-Go conditioning to two atomic signals, Return-to-Go for conversion value and Cost-to-Go for cost ratio, plus value-aware regularization on next-action prediction. To absorb distributional heterogeneity, we design a sequence-level Mixture-of-Experts architecture, where shared experts encode cross-scenario knowledge and sparsely-routed experts capture scenario-specific patterns at low latency, yielding consistent scaling with model size and data. During post-training, we align the backbone with scenario preferences via Critic-guided Relative Offline Policy optimization (CROP): a learned critic scores candidate actions group-relatively, avoiding the unsafe online exploration of GRPO-style fine-tuning while constraining policy shift to reduce OOD risk. Validated via online A/B tests and fully deployed at Kuaishou, OneBid delivers an overall +2.2% ADVV gain on oCPX Ads, peaking at +13.1% in the ROAS scenario.",
+        "published": "2026-09-18T09:43:09+00:00",
+        "url": "https://arxiv.org/pdf/2609.21550v1",
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21548v1",
+        "title": "Dual-Interest Sequential Product Recommendation With Multi-Granular SSM",
+        "authors": [
+            "Shuiying Liao",
+            "P. Y. Mok"
+        ],
+        "summary": "Sequential recommendation aims to predict the next item a user will interact with based on their historical behavior. Advances in Transformers have significantly improved sequential recommendation but are still limited by cost efficiency. Although State Space Models (SSMs) have recently enabled efficient long-range modeling, most existing methods encode each item with a single static contextual role, overlooking the phenomenon of item polysemy. In fact, the same item often plays different semantic roles depending on user context, and existing methods are limited in capturing dynamic behavior across different temporal granularities. In this work, we propose DSRec, a novel dual-interest cross-SSM model that explicitly disentangles item roles across long-term and short-term semantic context. Sequential items are encoded into long-term interest embeddings that capture stable preferences via historical aggregation, and a short-term interest branch that emphasizes local session intent modulated by inter-click time intervals. These interest embeddings are processed through distinct SSM encoders: a full-sequence Mamba for long-term modeling, and a time-modulated SSM that dynamically adjusts state evolution based on temporal gaps. To enable effective cross-granularity alignment, we adopt a residual cross-fusion mechanism that exchanges contextual information between the two branches while preserving semantic independence. Experiments on public benchmarks demonstrate that DSRec outperforms other state-of-the-art methods.",
+        "published": "2026-09-18T09:40:51+00:00",
+        "url": "https://arxiv.org/pdf/2609.21548v1",
+        "tags": [
+            "ai safety"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21541v1",
+        "title": "Purification and Regulation: Comorbidity-Aware Multi-Label Few-Shot Learning for Medical Image Classification",
+        "authors": [
+            "Ying-Chih Lin",
+            "Po-Chih Kuo",
+            "Yong-Sheng Chen"
+        ],
+        "summary": "Multi-label few-shot learning (MLFSL) remains a significant challenge in medical image analysis (MIA). Current metric-based meta-learning methods face two critical limitations in MIA. First, conventional prototype generation often entangles irrelevant disease information, leading to contaminated prototypes and degraded performance. Second, prior studies typically enforce inter-class separability in embedding space, largely neglecting the inherent correlations among diseases. To overcome these challenges, we propose Prototype Purification and Regulation (PPR), a novel MLFSL framework for MIA. PPR first performs prototype purification by leveraging sample-level comorbidity scores to emphasize disease-specific features, producing purified prototypes that better characterize each disease. Building upon these purified prototypes, PPR further addresses the underexplored problem of inter-class prototype distance in MIA by incorporating disease-level comorbidity statistics to adaptively regulate inter-class similarity, forming a comorbidity-aware embedding space. Overall, PPR sequentially enables the model to capture pure disease features and inter-class relationships for reliable MLFSL in MIA. Extensive experiments across four chest X-ray benchmark datasets, including cross-domain evaluation, show that PPR consistently outperforms state-of-the-art methods, significantly improving disease detection while demonstrating robust generalization and clinical applicability.",
+        "published": "2026-09-18T09:31:26+00:00",
+        "url": "https://arxiv.org/pdf/2609.21541v1",
+        "tags": [
+            "generalization"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21533v1",
+        "title": "MACE: Memory-Agent Co-Evolution with Adaptive Memory Graphs for Multi-Agent Systems",
+        "authors": [
+            "Kairui Yang",
+            "Minghao An",
+            "Xunkai Li",
+            "Ziheng Yi",
+            "Zekai Chen",
+            "Guangyuan He",
+            "Rong-Hua Li"
+        ],
+        "summary": "LLM-based multi-agent systems generate collaboration traces that record how agents plan tasks, verify intermediate results, and repair failures. Reusing these procedures requires preserving an action's prerequisites and the outputs needed by subsequent agents. Our empirical studies show that grouping these dependencies into functional memory units improves their retention, while connecting units increases retrieval of the units and links jointly required by a task. The preferred combination of units also changes between instructions and checklists, even when each combination's content is fixed across formats. Updating choices from the outcomes of each combination and format pairing outperforms scoring combinations and formats separately. These findings motivate MACE, a memory-agent co-evolution framework that adapts memory organization and agent memory use through execution feedback. Its MemGoG structure represents functional units as subgraphs of related conditions, actions, and outputs, connecting them through support, conflict, and repair relations. MACE Loop selects task-relevant units and relations within a memory budget and provides each agent with instructions or checklists for its current operation. It records the selected units, presentation formats, agent outputs, and task outcomes to update unit scores and relations for retrieval and inform subsequent presentation choices. Across eight benchmarks, MACE outperforms ten baselines with an average score of 81.11%, compared with 78.97% for the strongest baseline, SAGE.",
+        "published": "2026-09-18T09:25:06+00:00",
+        "url": "https://arxiv.org/pdf/2609.21533v1",
+        "tags": [
+            "generative models"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21523v1",
+        "title": "What Must Survive? Exact Task-Information--State Frontiers for Resource-Sufficient Learning",
+        "authors": [
+            "Ronald Katende"
+        ],
+        "summary": "A system may be compressed before its downstream task is fully known. We ask how much retained state is then necessary and how much can be saved by limited advance task information.\n  For a finite family of linear tasks, a task message is revealed before state formation and the exact task only afterwards. For an advice alphabet of size $K$, the exact frontier is \\[ p^*(K)= \\min_{\\substack{\\Pcal\\text{ partition of }\\U\\\\|\\Pcal|\\le K}} \\max_{C\\in\\Pcal}\\rank(T_C), \\] with the $b$-bit frontier obtained by setting $K=\\min(2^b,|\\U|)$. Thus advance task information reduces state through partitions whose joint task operators have low rank.\n  We also give an approximate singular-value frontier, a common-core lower bound and exact direct-sum law, and strong NP-hardness of finding an optimal advice partition. The hardness persists at every fixed positive approximation tolerance.\n  Three examples illustrate the result. A well-conditioned softmax attention construction gives an exact $524{,}288\\to1{,}024$ coordinate frontier when nine bits resolve one of $512$ continuations. A domain-decomposed digital twin yields an interface-plus-local-state law and a weighted partition problem for heterogeneous regions.\n  A hierarchical multi-task model gives a two-stage frontier in which three bits reduce the required state from $3136$ to $448$ coordinates, with further task information approaching the irreducible $328$-coordinate single-task floor.",
+        "published": "2026-09-18T09:12:54+00:00",
+        "url": "https://arxiv.org/pdf/2609.21523v1",
+        "tags": [
+            "approximation"
+        ]
+    },
+    {
+        "id": "http://arxiv.org/abs/2609.21482v1",
+        "title": "Adaptive Rollout Truncation Based on Epistemic Uncertainty for Efficient Offline World Model Training",
+        "authors": [
+            "Nikodem Sebastian Zymla",
+            "Laurin Thiele",
+            "Johannes Pitz"
+        ],
+        "summary": "Accurate neural world models are central to model-based robotics, where they enable robots to predict future states from previously observed trajectories. Multi-step autoregressive training improves long-horizon prediction, but fixed rollout horizons also increase computational cost and can amplify early training errors when the model is still inaccurate. Existing training schemes typically use the same rollout length throughout optimization, independent of the model's current predictive reliability.\n  We propose an epistemic uncertainty-driven adaptive rollout strategy for offline world model training following an auto-curriculum training scheme. Instead of always unrolling to a fixed horizon, the model terminates autoregressive rollouts once epistemic uncertainty exceeds a threshold calibrated from a warm-up phase. We study two uncertainty estimators: a five-head ensemble with a shared recurrent backbone and Monte Carlo Dropout. A two-stage warm-up procedure stabilizes uncertainty estimates before we enable adaptive truncation.\n  Experiments on ANYmal-D and ANT show that ensemble-based adaptive truncation matches or improves the prediction accuracy of fixed-horizon training and the RWM-U baseline while requiring substantially fewer cumulative rollout steps. Training a world model on ANYmal-D following the presented approach reaches comparable final performance with the baselines with roughly 72% less rollout computation. These results indicate that epistemic uncertainty is useful not only for downstream policy regularization, but also for making world model training itself more compute-efficient.",
+        "published": "2026-09-18T08:32:34+00:00",
+        "url": "https://arxiv.org/pdf/2609.21482v1",
+        "tags": [
+            "optimization"
+        ]
+    }
+]
